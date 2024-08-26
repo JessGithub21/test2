@@ -1,0 +1,92 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    
+}
+
+.nav-panel ul {
+    list-style: none;
+    padding: 30px;
+    margin: 0;
+    display: flex;
+}
+
+.nav-panel li {
+    margin-right: 25px;
+}
+
+.nav-panel a {
+    text-decoration: none;
+    color: orangered;
+    font-size: 20px;
+    font-style: bold;
+}
+
+.nav-panel a:hover {
+    text-decoration: underline;
+}
+h1
+{
+    color: orangered;
+    text-align: center;
+}
+.main
+{
+    margin: 20px;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: minmax(100px,auto);
+    grid-template-areas: 
+    "one two three";
+    
+
+}
+.services
+{
+    margin: 10px;
+    background-color: rgba(50, 50, 50, 0.8);
+    color: white;
+    grid-area: one;
+    padding: 20px;
+    border-radius: 8px;
+}
+.software
+{
+    margin: 10px;
+    background-color: rgba(50, 50, 50, 0.8);
+    color: white;
+    grid-area: two;
+    padding: 20px;
+    border-radius: 8px;
+}
+.center
+{
+    margin: 10px;
+    background-color: rgba(50, 50, 50, 0.8);
+    color: white;
+    grid-area: three;
+    padding: 20px;
+    border-radius: 8px;
+}
+h2
+{
+    text-align: center;
+    color: orangered;
+}
+p
+{
+    color: black;
+    text-align: center;
+    font-size: 20px;
+}
+.container
+{
+    max-width: 100%;
+    background: url(images/Screenshot\ 2024-07-24\ 154642.png) no-repeat;
+    background-size: cover;
+
+}
+

@@ -1,0 +1,72 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    
+}
+.logo {
+    
+    max-height: 50%
+}
+
+.nav-panel ul {
+    list-style: none;
+    padding: 30px;
+    margin: 0;
+    display: flex;
+}
+
+.nav-panel li {
+    margin-right: 25px;
+}
+
+.nav-panel a {
+    text-decoration: none;
+    color: orangered;
+    font-size: 20px;
+    font-style: bold;
+}
+
+.nav-panel a:hover {
+    text-decoration: underline;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh; /* Adjust height as needed */
+    background: url(images/Screenshot\ 2024-07-24\ 154642.png) no-repeat;
+    background-size: cover;
+}
+
+.content-box {
+    background-color: rgba(50, 50, 50, 0.8); /* Transparent grey */
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%; /* Adjust width as needed */
+    max-width: 800px; /* Adjust max-width as needed */
+    text-align: center;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* Space between image and heading */
+}
+
+.heading-image{
+    max-height: 75px; /* Adjust image size as needed */
+    background-color: rgba(50, 50, 50, 0.8);
+}
+
+.heading h1 {
+    margin: 0;
+    color: orangered;
+}
+
+p {
+    margin-top: 15px;
+    font-size: 25px;
+}

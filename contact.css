@@ -1,0 +1,104 @@
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    
+}
+
+.nav-panel ul {
+    list-style: none;
+    padding: 30px;
+    margin: 0;
+    display: flex;
+}
+
+.nav-panel li {
+    margin-right: 25px;
+}
+
+.nav-panel a {
+    text-decoration: none;
+    color: orangered;
+    font-size: 20px;
+    font-style: bold;
+}
+
+.nav-panel a:hover {
+    text-decoration: underline;
+}
+h1
+{
+    color: orangered;
+    text-align: center;
+}
+
+/* Main Section */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background: url(images/Screenshot\ 2024-07-24\ 154642.png) no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.main {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr;
+}
+
+/* Contact Form */
+.contact-form {
+    background-color: rgba(50, 50, 50, 0.8);
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.contact-form h2 {
+    color: orangered;
+    text-align: center;
+}
+
+.contact-form p {
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: orangered;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1em;
+}
+
+button[type="submit"] {
+    background-color: orangered;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button[type="submit"]:hover {
+    background-color: darkred;
+}
